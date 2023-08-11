@@ -9,9 +9,7 @@
 int main(void)
 {
 	char c, e, q;
-	
 	e = 'e';
-	
 	q = 'q';
 
 	for (c = 'a'; c <= 'z'; c++)
