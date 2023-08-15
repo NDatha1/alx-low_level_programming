@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * add - Summ two integers.
- * Return: 0 (Success)
+ * @n1: First number to check.
+ * @n2: Second number to check.
+ * Return: Integer value.
  */
 int add(int n1, int n2)
 {

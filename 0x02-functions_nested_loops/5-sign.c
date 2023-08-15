@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Print positive or negative sign of a number.
- * @: Number to be looked at.
+ * @n: Number to be looked at.
  * Return: 0 if zero, + if bigger , - if smaller and print.
  */
 int print_sign(int n)
