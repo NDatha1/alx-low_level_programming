@@ -3,11 +3,11 @@
 /**
  * print_to_98 - Print all numbers from n to 98.
  * @n: The number to start printing from.
- * Reurn: 0 (Success)
+ * Return: 0 (Success)
  */
 void print_to_98(int n)
 {
-	if (n == 98)
+	if (n <= 98)
 	{
 	for (; n <= 98; n++)
 	{
