@@ -11,12 +11,12 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-	n *= -1;
-	m = n;
 	_putchar ('_');
+	m = -m;
 	}
-	m /= 10;
-	if (m != 0)
-	print_number(m);
-	_putchar ((unsigned int) n % 10 + '0');
+	if (m > 9)
+	{
+	print_number(m / 10);
+	}
+	_putchar (m % 10 + '0');
 }
