@@ -3,13 +3,12 @@
 
 /**
  * _sqrt - Calculate natural square root.
- *_sqrt_recursion-  Calculate natural square root.
  * @n: No. to be checked.
  * @i: Iterate number.
  * Return: Always 0.
  */
 int _sqrt(int n, int i);
-
+/* _sqrt_recursion -  Calculate natural square root too.*/
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
