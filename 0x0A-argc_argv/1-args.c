@@ -3,7 +3,7 @@
 /**
  * main - Print the number of args.
  * @argc: Argument count.
- * @aegv: Argument vector.
+ * @argv: Argument vector.
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
