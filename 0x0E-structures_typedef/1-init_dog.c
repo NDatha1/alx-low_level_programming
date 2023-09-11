@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /**
  * init_dog - Initialize a variable of struct dog.
- * @struct dog: Dog structure Pointer.
  * @d: Pointer
  * @name: Dog identifier.
  * @age: Dog lifespan.
